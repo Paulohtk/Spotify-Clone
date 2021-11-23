@@ -13,6 +13,9 @@ html {
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
+.example::-webkit-scrollbar {
+  display: none;
+}
 /* Sections
    ========================================================================== */
 
@@ -23,6 +26,7 @@ html {
 body {
   margin: 0;
 }
+
 
 /**
  * Render the `main` element consistently in IE.
@@ -3652,11 +3656,11 @@ video {
 }
 
 .bg-spotify-theme {
-  background-image: url('/img/teste1.svg');
+  background-image: url('../img/bursts.svg');
 }
 
 .bg-spotify-theme-mobile {
-  background-image: url('/img/teste2.svg');
+  background-image: url('../img/bursts-mobile.svg');
 }
 
 .from-transparent {
@@ -25137,11 +25141,11 @@ video {
   }
 
   .sm\:bg-spotify-theme {
-    background-image: url('/img/teste1.svg');
+    background-image: url('../img/bursts.svg');
   }
 
   .sm\:bg-spotify-theme-mobile {
-    background-image: url('/img/teste2.svg');
+    background-image: url('../img/bursts-mobile.svg');
   }
 
   .sm\:from-transparent {
@@ -46557,11 +46561,11 @@ video {
   }
 
   .md\:bg-spotify-theme {
-    background-image: url('/img/teste1.svg');
+    background-image: url('../img/bursts.svg');
   }
 
   .md\:bg-spotify-theme-mobile {
-    background-image: url('/img/teste2.svg');
+    background-image: url('../img/bursts-mobile.svg');
   }
 
   .md\:from-transparent {
@@ -67977,11 +67981,11 @@ video {
   }
 
   .lg\:bg-spotify-theme {
-    background-image: url('/img/teste1.svg');
+    background-image: url('../img/bursts.svg');
   }
 
   .lg\:bg-spotify-theme-mobile {
-    background-image: url('/img/teste2.svg');
+    background-image: url('../img/bursts-mobile.svg');
   }
 
   .lg\:from-transparent {
@@ -89397,11 +89401,11 @@ video {
   }
 
   .xl\:bg-spotify-theme {
-    background-image: url('/img/teste1.svg');
+    background-image: url('../img/bursts.svg');
   }
 
   .xl\:bg-spotify-theme-mobile {
-    background-image: url('/img/teste2.svg');
+    background-image: url('../img/bursts-mobile.svg');
   }
 
   .xl\:from-transparent {
@@ -107749,3 +107753,4 @@ video {
             animation: bounce 1s infinite;
   }
 }
+  
